@@ -1,0 +1,5 @@
+services:
+  Cars-Directory:
+    build: ./
+    ports:
+      - "80:8080"
